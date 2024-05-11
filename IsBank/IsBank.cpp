@@ -26,8 +26,8 @@ int main() {
         "2. Bakiye Sorgu \n"
         "3. Para Yatir \n"
         "4. Para Cek \n"
-        "5. Para Gonder \n"
-        "6. Hesabi Sil \n"
+        //"5. Para Gonder \n"
+        //"6. Hesabi Sil \n"
         "7. Cikis \n";
 
     cin >> startSelect;
@@ -47,6 +47,9 @@ int main() {
     }
     case 4: {
         paraCek(name,surname,line);
+        break;
+    }
+    case 7: {
         break;
     }
     default:
